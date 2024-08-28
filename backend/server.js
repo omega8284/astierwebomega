@@ -8,7 +8,7 @@ const multer = require('multer'); // For handling file uploads
 const path = require('path');
 
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 10000;
 
 // MongoDB connection setup
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
